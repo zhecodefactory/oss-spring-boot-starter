@@ -1,9 +1,10 @@
-package com.wz.ossspringbootstarter.template.impl;
+package com.wz.ossspringbootstarter.service;
 
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.model.*;
 import com.amazonaws.util.IOUtils;
-import com.wz.ossspringbootstarter.template.OssTemplate;
+import com.wz.ossspringbootstarter.propieties.OssTemplate;
+import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 
 import java.io.ByteArrayInputStream;
@@ -21,12 +22,9 @@ import java.util.List;
  * @Description Oss模板的实现类
  * @Version V1.0
  */
+@RequiredArgsConstructor
 public class OssTemplateImpl implements OssTemplate {
-    private AmazonS3 amazonS3;
-
-    public OssTemplateImpl(AmazonS3 amazonS3) {
-        this.amazonS3 = amazonS3;
-    }
+    private final AmazonS3 amazonS3;
 
     /**
      * 创建Bucket

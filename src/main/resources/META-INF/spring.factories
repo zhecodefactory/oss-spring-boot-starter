@@ -1,2 +1,3 @@
+
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.wz.ossspringbootstarter.OssSpringBootStarterApplication
+  com.wz.ossspringbootstarter.configuration.OssAutoConfiguration

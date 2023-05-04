@@ -1,4 +1,4 @@
-package com.wz.ossspringbootstarter.template;
+package com.wz.ossspringbootstarter.propieties;
 
 import com.amazonaws.services.s3.model.Bucket;
 import com.amazonaws.services.s3.model.S3Object;

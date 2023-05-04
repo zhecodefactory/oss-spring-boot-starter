@@ -8,9 +8,10 @@ import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.client.builder.AwsClientBuilder;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3Client;
+
 import com.wz.ossspringbootstarter.propieties.OssProperties;
-import com.wz.ossspringbootstarter.template.OssTemplate;
-import com.wz.ossspringbootstarter.template.impl.OssTemplateImpl;
+import com.wz.ossspringbootstarter.propieties.OssTemplate;
+import com.wz.ossspringbootstarter.service.OssTemplateImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
