@@ -24,7 +24,7 @@ import org.springframework.context.annotation.Configuration;
  * @ClassName OssAutoConfiguration
  * @create 2023--五月--上午9:13
  * @Description Oss的自动配置类
- * @Version V1.0
+ * @Version V1.1
  */
 @Configuration
 @RequiredArgsConstructor
